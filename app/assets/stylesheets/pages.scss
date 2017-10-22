@@ -2,10 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/ */
 
-/* #bootstrap-overrides{
-    width: 50%;
-    float: center;
-} */
+
+#bootstrap-overrides{
+    background: url('https://wallpaperstock.net/snow-mountain-lake-reflection-wallpapers_39494_1920x1080.jpg');
+    background-size: 960px;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: top;
+}
+
 
 #bootstrap-overrides #header{
     background-color: #222;
