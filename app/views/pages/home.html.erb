@@ -1,0 +1,48 @@
+<div id="bootstrap-overrides">
+    <div id="header">
+        <div>
+            <h2>Michael Kessler</h2>
+        </div>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a id="resume" href="/resume" data-title="Available to print or download">Resume</a></li>
+                    <!-- <span id="textSpan" style="display:none;position:absolute;"></span> -->
+                </ul>
+                <p id="hiddenText" hidden>Available to print or download</p>
+            </div>    
+        </nav>
+    </div>
+<script>
+    $(document).ready(function(){
+        $("#resume").on('mouseover',function() {
+            $("#hiddenText").show();
+        });
+        $("#resume").on('mouseout',function() {
+             $("#hiddenText").hide();
+        });
+    });
+</script>
+<!-- <script>
+    $(document).ready(function(){
+    $("#resume").on('mouseover',function(e) {
+        var div = ("Available to print or download");
+        $("#textSpan").html(div).css({left:e.pageX-250, top:e.pageY-45}).show();
+    });
+    $("#resume").on('mouseout',function(e) {
+         $("#textSpan").hide();
+    });
+});
+</script> -->
+
+
+    <div>
+        <h3>hello?!?!?!?!</h3>
+    </div>
+
+
+
+</div> <!-- closing bootstrap-overrides div -->

@@ -1,0 +1,91 @@
+/* // Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/ */
+
+/* #bootstrap-overrides{
+    width: 50%;
+    float: center;
+} */
+
+#bootstrap-overrides #header{
+    background-color: #222;
+    width: 960px;
+    height: 80px;
+    opacity: .5;
+    display: block;
+    position: absolute;
+    left: 30px;
+}
+
+/* #bootstrap-overrides .navbar{
+    position: absolute;
+    top: 45px;
+} */
+
+#bootstrap-overrides .navbar-inverse{
+    background-color: #222;
+    border: none;
+    padding-right: 35px;
+    height: 20px;
+}
+
+
+.navbar, li{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.homeLink{
+    display: block;
+    margin-left: 850px;
+    text-decoration: underline;
+}
+
+.container-fluid{
+    padding-top: 0px;
+}
+
+
+/* #textSpan{
+    color: #9d9d9d;
+    background-color: #222;
+    font-size: 8px;
+    width: 150px
+} */
+
+#hiddenText{
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 10px;
+    color: #9d9d9d;
+    
+}
+
+.box
+{
+  border: 1px solid green;
+  position:absolute;
+  color: white;
+  top: 19px;
+  left: 30px;
+  background-color: black;
+  opacity: .5;
+}
+
+nav.navbar.navbar-inverse{
+    margin-bottom: 5px;    
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 2px;
+}
+
+div, h2{
+    display: inline-block;
+    color: #9d9d9d;
+    margin: 10px;
+}
+
