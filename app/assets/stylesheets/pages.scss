@@ -4,34 +4,38 @@
 
 
 #bootstrap-overrides{
-    background: url('https://wallpaperstock.net/snow-mountain-lake-reflection-wallpapers_39494_1920x1080.jpg');
+    background: url('/assets/ws_Snow_Mountain_Lake_Reflection_1920x1080.jpg');
     background-size: 960px;
     background-repeat: no-repeat;
-    background-position-x: 40px;
+    background-position-x: 10px;
     background-position-y: top;
+    width: 960px;
+    height: 900px;
 }
-
 
 #bootstrap-overrides #header{
     background-color: #222;
-    width: 960px;
-    height: 80px;
+    width: 950px;
+    height: 90px;
     opacity: .5;
     display: block;
-    position: absolute;
-    left: 30px;
+    margin-top: 0px;
+    /* position: absolute;
+    left: 30px; */
 }
 
-/* #bootstrap-overrides .navbar{
-    position: absolute;
-    top: 45px;
-} */
+#header h2{
+    font-size: 45px;
+    font-family: Georgia;
+}
 
 #bootstrap-overrides .navbar-inverse{
     background-color: #222;
     border: none;
     padding-right: 35px;
     height: 20px;
+    float: right;
+    margin-top: 40px;
 }
 
 
@@ -50,14 +54,6 @@
     padding-top: 0px;
 }
 
-
-/* #textSpan{
-    color: #9d9d9d;
-    background-color: #222;
-    font-size: 8px;
-    width: 150px
-} */
-
 #hiddenText{
     position: absolute;
     margin-left: 135px;
@@ -68,8 +64,7 @@
     
 }
 
-.box
-{
+.box{
   border: 1px solid green;
   position:absolute;
   color: white;
@@ -79,8 +74,13 @@
   opacity: .5;
 }
 
-nav.navbar.navbar-inverse{
+#bootstrap-overrides nav.navbar.navbar-inverse{
     margin-bottom: 5px;    
+}
+
+#bootstrap-overrides #header .navbar-nav li a{
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 nav li + li:before{

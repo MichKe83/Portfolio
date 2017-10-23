@@ -13,8 +13,8 @@
  *= require_tree .
  *= require_self
  */
-
-/* #footnotes_debug{
+/* 
+#footnotes_debug{
     position: absolute;
     top: 700px;
     display: none;
