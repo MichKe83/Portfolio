@@ -3,14 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/ */
 
 
-#bootstrap-overrides{
+#body2{
     background: url('/assets/ws_Snow_Mountain_Lake_Reflection_1920x1080.jpg');
     background-size: 960px;
     background-repeat: no-repeat;
     background-position-x: 10px;
     background-position-y: top;
-    width: 960px;
-    height: 900px;
+    height: 540px;
 }
 
 #bootstrap-overrides #header{
@@ -94,3 +93,20 @@ div, h2{
     margin: 10px;
 }
 
+.weather{
+    background-image: url('/assets/thunderstorm1.jpeg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: -5px;
+    border: 10px solid black;
+    width: 200px;
+    height: 235px;
+    // background-color: blue;
+    // opacity: .75;
+    margin-left: 60px;
+}
+
+.weather h2{
+    margin: 15px;
+    color: black;
+}
